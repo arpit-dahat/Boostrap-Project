@@ -1,0 +1,153 @@
+body{
+    padding-bottom: 40px;
+    color: #5a5a5a;
+}
+.navbar-wrapper{
+    position: relative;
+    z-index: 15;
+}
+
+.marquee{
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+    margin-bottom: 75px;
+    background-color: rgb(80, 194, 80);
+    color: white;
+    font-weight: bold ;
+    font-size: 10px;
+}
+
+/* carousel*/
+
+.carousel{
+    margin-bottom: 60px;
+    margin-top: -90px;
+}
+.carousel-caption{
+    z-index: 10;
+
+}
+.carousel .item{
+    height: 500px;
+    background-color: #777;
+}
+.carousel-inner> .item >img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+.marketing{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.marketing .col-lg-4{
+    text-align: center;
+    margin-bottom: 20px ;
+}
+.marketing h2{
+    font-weight: 400;
+}
+.marketing .col-lg-4 p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar .nav>li>a{
+    color: #fff;
+    text-shadow: none;
+}
+.navbar .nav>li a:hover{
+    color: #666;
+}
+.navbar .nav .active>a{
+    color: #666;
+    background: none;
+
+}
+.navbar .nav .active >a:hover{
+    background: none;
+}
+
+
+
+
+footer{
+    background-color: #000;
+    padding: 20px;
+    
+}
+
+@media (min-width:768px) {
+    .marketing{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navbar-wrapper{
+        margin-top: 20px;
+    }
+    .navbar-wrapper .navbar{
+        border-radius: 4px;
+    }
+    .carousel-caption p{
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 21px;
+
+    }
+    
+}
+h2 {
+    font-family: Arial, Verdana;
+    font-weight: 300;
+    font-size: 50px;
+    color: #091f2f;
+    text-transform: uppercase;
+}
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: palegreen;
+    padding: 10px;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+    
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #1f7de2;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
+
+.form{
+    justify-content: space-around;
+    margin: 10px;
+    padding: 70px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#submit{
+    background-color: goldenrod;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-color: #1f7de2;
+    border: 2px solid green;
+    color: white;
+}
+
